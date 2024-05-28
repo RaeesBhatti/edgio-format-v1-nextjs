@@ -12,6 +12,15 @@ const config = {
         compileHandler: true,
       },
     },
+    static: [
+        {
+            dirPath: "public",
+        },
+        {
+            dirPath: '.next/static',
+            prefix: '/_next/static',
+        }
+    ],
   },
   cloudRuntime: "nodejs20.x",
   origins: [
