@@ -2,5 +2,6 @@
 <project version="4">
   <component name="JavaScriptLibraryMappings">
     <file url="file://$PROJECT_DIR$" libraries="{Node.js Core}" />
+    <excludedPredefinedLibrary name="edgio-format-v1-nextjs/.next/standalone/node_modules" />
   </component>
 </project>
