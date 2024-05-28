@@ -9,6 +9,7 @@ const config = {
     "cloud-functions": {
       "nextjs-app": {
         directory: "./.next/standalone",
+        compileHandler: true,
       },
     },
   },
