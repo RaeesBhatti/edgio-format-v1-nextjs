@@ -13,13 +13,13 @@ const config = {
       },
     },
     static: [
-        {
-            dirPath: "public",
-        },
-        {
-            dirPath: '.next/static',
-            prefix: '/_next/static',
-        }
+      {
+        dirPath: "public",
+      },
+      {
+        dirPath: '.next/static',
+        prefix: '/_next/static',
+      }
     ],
   },
   cloudRuntime: "nodejs20.x",
@@ -64,4 +64,4 @@ const config = {
   ],
 };
 
-export default config;
+export { config };
