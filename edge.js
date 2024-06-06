@@ -1,3 +1,4 @@
+/** @type {import("@edgio/edgx").EdgioConfig} */
 const config = {
   localDev: {
     edgioDevServer: {
@@ -18,7 +19,7 @@ const config = {
       },
       {
         dirPath: '.next/static',
-        prefix: '/_next/static',
+        urlPathPrefix: '/_next/static',
       }
     ],
   },

@@ -9,7 +9,15 @@ const nextConfig = {
     serverMinification: false,
     serverSourceMaps: true,
   },
-
+  async redirects() {
+    return [
+      {
+        source: '/old-blog/:slug',
+        destination: '/news/:slug', // Matched parameters can be used in the destination
+        permanent: true,
+      },
+    ]
+  },
 };
 
 export default nextConfig;
